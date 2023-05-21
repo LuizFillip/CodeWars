@@ -35,4 +35,13 @@ def alphanumeric(password):
         return all([i.isalpha() or 
                     i.isnumeric() for i in password])
     
-    
+
+
+def camel_case(s):
+    return "".join([i.title() for i in s.split()])
+
+s = "camel case word"
+s ="hello case"
+
+# def camel_case(string):
+#     return string.title().replace(" ", "")
