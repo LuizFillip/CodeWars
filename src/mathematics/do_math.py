@@ -70,3 +70,6 @@ def run_test():
     
     do_math(s)
 
+a = np.array([31,16,7,24,18,17,37,22,15,21,13,19])
+
+np.std(a, ddof = 1) / np.mean(a) 
